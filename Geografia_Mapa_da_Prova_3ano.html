@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#123c55">
+  <meta name="description" content="Revisão de Geografia para o 3º ano: demografia, commodities, exportações, indústria e cadeias globais de valor.">
+  <title>Geografia | Mapa da Prova</title>
+  <style>
+    :root{--navy:#123c55;--deep:#102e42;--teal:#087e77;--aqua:#c9efea;--gold:#ffc567;--paper:#f5f9f8;--white:#fff;--ink:#213c4b;--muted:#607682;--line:#dbe8e7;--red:#a74940;--soft:#e9f4f2;--shadow:0 16px 40px rgba(14,57,73,.075)}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:"Segoe UI",Inter,Arial,sans-serif;font-size:16px;line-height:1.62}
+    button{font:inherit;cursor:pointer}
+    a{color:inherit}
+    button:focus-visible,a:focus-visible{outline:3px solid #f2ab35;outline-offset:3px}
+    .wrap{width:min(1040px,calc(100% - 36px));margin:auto}
+    .top{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+    .topinner{min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .mark{font-weight:950;letter-spacing:-.6px;font-size:18px;display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--deep)}
+    .mark span{display:grid;place-items:center;background:var(--teal);color:white;border-radius:10px;width:34px;height:34px;font-size:20px}
+    .topright{display:flex;gap:10px;align-items:center}
+    .count{font-weight:800;font-size:12px;color:var(--teal);background:#eaf6f3;border:1px solid #bfe3dc;padding:7px 11px;border-radius:999px;white-space:nowrap}
+    .btn{border:0;background:var(--teal);color:#fff;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:10px 17px;font-weight:800;text-decoration:none;line-height:1.25}
+    .btn:hover{background:#076b66}
+    .btn.alt{background:#edf5f3;border:1px solid #cfe4e0;color:var(--navy)}
+    .btn.alt:hover{background:#dcefeb}
+    .btn.sun{background:var(--gold);color:var(--deep)}
+    .hero{background:var(--navy);color:#fff;position:relative;overflow:hidden}
+    .hero:before{content:"";position:absolute;right:-160px;top:-260px;width:570px;height:570px;border:1px solid rgba(190,245,233,.23);border-radius:48%;box-shadow:0 0 0 42px rgba(190,245,233,.04),0 0 0 95px rgba(190,245,233,.035),0 0 0 152px rgba(190,245,233,.03);transform:rotate(24deg)}
+    .hero .wrap{position:relative;padding-top:58px;padding-bottom:53px}
+    .ribbon{color:#bbefe7;background:rgba(6,128,124,.31);border:1px solid rgba(134,220,209,.32);border-radius:100px;display:inline-block;padding:6px 12px;font-size:12px;font-weight:900}
+    .hero h1{font-size:clamp(38px,6vw,69px);line-height:1.06;max-width:700px;letter-spacing:-2.4px;margin:21px 0 17px}
+    .hero h1 em{font-style:normal;color:var(--gold)}
+    .hero p{max-width:590px;font-size:17px;line-height:1.6;color:#dbeced;margin:0}
+    .heroactions{display:flex;gap:11px;flex-wrap:wrap;margin-top:29px}
+    .heroactions .btn{min-width:176px}
+    .overview{padding:34px 0 18px}
+    .sectiontitle{font-size:25px;letter-spacing:-.8px;line-height:1.2;margin:0 0 6px;color:var(--deep)}
+    .muted{color:var(--muted);margin:0}
+    .toc{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-top:19px}
+    .toc a{background:#fff;border:1px solid var(--line);text-decoration:none;border-radius:13px;padding:14px 13px;min-height:103px;display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:8px;color:var(--ink);box-shadow:0 4px 10px rgba(9,65,70,.025);transition:border-color .15s,transform .15s}
+    .toc a:hover{border-color:#7cbeb6;transform:translateY(-2px)}
+    .toc strong{font-size:12.5px;line-height:1.33}
+    .toc .num{font-size:12px;font-weight:900;color:var(--teal);font-family:ui-monospace,Consolas,monospace}
+    .divider{display:flex;align-items:center;gap:12px;margin:35px 0 18px;color:var(--teal);font-weight:900;font-size:14px}
+    .divider:after{content:"";height:1px;background:#cadcda;flex:1}
+    .lesson{background:#fff;border:1px solid var(--line);border-radius:20px;margin:15px 0;padding:23px 26px 22px;box-shadow:var(--shadow);scroll-margin-top:79px}
+    .lessonhead{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin-bottom:13px}
+    .lessonhead .type{font-size:11px;font-weight:950;color:var(--teal);display:block;margin-bottom:4px}
+    .lesson h3{font-size:clamp(20px,2.7vw,26px);line-height:1.25;letter-spacing:-.6px;color:var(--deep);margin:0}
+    .done{border:1px solid #c5e1db;background:#f1f8f6;color:var(--teal);border-radius:10px;padding:8px 10px;font-weight:850;font-size:12px;white-space:nowrap;min-width:105px}
+    .done[data-done="true"]{background:var(--teal);color:#fff;border-color:var(--teal)}
+    .lesson p{margin:9px 0}
+    .lesson .because{border-top:1px dashed #d0e4df;margin:15px 0 11px;padding-top:13px;font-size:14.7px;line-height:1.65;color:#3c5866}
+    .lesson .because strong{color:#086c67}
+    .lesson ul{padding-left:21px;margin:8px 0}
+    .lesson li{margin:4px 0}
+    .highlight{background:var(--soft);border-left:4px solid var(--teal);border-radius:0 11px 11px 0;padding:12px 15px;margin:15px 0;font-size:14.5px}
+    .highlight strong{color:#086e67}
+    .warn{background:#fff6e8;border-left-color:#e3ab4e}
+    .warn strong{color:#895b14}
+    .math{background:#102e42;color:#fff;border-radius:12px;padding:14px 17px;margin:14px 0;display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+    .math .formula{font-family:"Cambria Math",Cambria,Georgia,serif;font-weight:700;font-size:clamp(17px,3.2vw,24px);letter-spacing:.15px;flex:1 1 290px;min-width:0;overflow-wrap:anywhere}
+    .math .label{font-size:12px;color:#b7d4da;max-width:310px;line-height:1.5;min-width:0;flex:1 1 150px}
+    .micro{font-size:13px;color:var(--muted)}
+    .twocol{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .mini{background:#f2f8f7;border:1px solid #dbe9e6;border-radius:13px;padding:13px 15px}
+    .mini strong{display:block;color:var(--navy);margin-bottom:3px}
+    .mini p{font-size:14px;margin:0}
+    .compare{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .comp{border-radius:13px;padding:12px 15px;background:#e8f5f0;border:1px solid #b8ded2}
+    .comp:nth-child(2){background:#edf2fb;border-color:#cddaf0}
+    .comp b{display:block;font-size:15px;color:var(--deep);margin-bottom:3px}
+    .comp p{margin:0;font-size:14px}
+    .tags{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 3px}
+    .tag{font-size:12px;padding:4px 9px;border-radius:100px;background:#e5f2f1;color:#0b716a;font-weight:800}
+    .pyramids{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:13px 0}
+    .pyramid{background:#f2f8f7;border:1px solid #d7e8e4;border-radius:13px;padding:12px;min-width:0}
+    .pyramid strong{display:block;text-align:center;font-size:13px;margin-bottom:8px}
+    .bars{display:flex;flex-direction:column;gap:5px;align-items:center;height:98px;justify-content:space-between}
+    .bar{height:13px;border-radius:3px;background:linear-gradient(90deg,#087e77 0 49%,#fff 49% 51%,#73bbb1 51% 100%)}
+    .bar.alt{background:linear-gradient(90deg,#51699c 0 49%,#fff 49% 51%,#9bb7e3 51% 100%)}
+    .pyramid small{display:block;color:var(--muted);font-size:11px;text-align:center;margin-top:8px}
+    .chain{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:15px 0}
+    .chain .stage{background:#e9f3f2;border:1px solid #cfe3df;border-radius:11px;padding:13px 9px;text-align:center;position:relative}
+    .stage b{display:block;font-size:13px;color:var(--deep)}
+    .stage small{font-size:11px;line-height:1.3;color:var(--muted);display:block;margin-top:5px}
+    .stage:first-child,.stage:last-child{background:#e1f3eb;border-color:#a8d8c4}
+    .stagenote{font-size:12px;color:var(--muted)}
+    .cheatsheet{background:var(--deep);color:#fff;border-radius:19px;padding:24px 26px;margin:32px 0}
+    .cheatsheet h2{font-size:23px;letter-spacing:-.7px;margin:0 0 11px}
+    .cheatsheet ol{margin:0;padding-left:22px;columns:2;column-gap:32px}
+    .cheatsheet li{break-inside:avoid;padding:4px 0;font-size:14px;color:#e3f0f1}
+    .quizbox{background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:25px;margin:27px 0 60px}
+    .quizhead{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:16px}
+    .quizhead h2{margin:0;font-size:26px;letter-spacing:-.7px}
+    .qtag{color:var(--teal);font-weight:900;background:#eaf6f3;padding:6px 10px;border-radius:8px;font-size:12px}
+    .qquestion{font-size:21px;line-height:1.4;font-weight:850;color:var(--deep);margin:8px 0 18px}
+    .choices{display:grid;gap:9px}
+    .choice{width:100%;border:1px solid #d8e7e5;background:#f9fcfb;color:#234254;border-radius:12px;padding:13px 15px;text-align:left;min-height:49px;font-weight:650;font-size:15px}
+    .choice:hover:not(:disabled){border-color:var(--teal);background:#f1faf8}
+    .choice:disabled{cursor:default}
+    .choice.correct{background:#e0f3e9;border-color:#45a978;color:#08633a}
+    .choice.wrong{background:#fff0ec;border-color:#da8174;color:#963e35}
+    .feedback{display:none;background:#eef8f6;border-left:4px solid var(--teal);border-radius:0 10px 10px 0;padding:13px 15px;margin-top:16px;font-size:14px}
+    .feedback.show{display:block}
+    .quizfoot{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:19px}
+    .progressline{height:7px;border-radius:99px;background:#e1ecea;overflow:hidden;margin:11px 0 0}
+    #qbar{height:100%;width:10%;background:var(--teal);transition:width .2s}
+    .foot{background:#e9f2f0;color:#54717b;padding:21px 0;font-size:12px;text-align:center}
+    .mobilefix{position:fixed;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:12;display:none}
+    .mobilefix a{box-shadow:0 5px 18px rgba(8,70,73,.2);border:2px solid white;border-radius:40px;padding:10px 15px;font-size:12px}
+    @media(min-width:800px){.main-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:20px}}
+    @media(max-width:750px){.toc{grid-template-columns:repeat(2,minmax(0,1fr))}.toc a{min-height:78px}.hero .wrap{padding-top:40px;padding-bottom:43px}.hero h1{letter-spacing:-1.5px}.hero p{font-size:15px}.overview{padding-top:25px}.lesson{padding:19px 17px;margin:12px 0;border-radius:15px}.lessonhead{gap:9px}.lesson h3{font-size:21px}.done{min-width:0;padding:6px 8px}.cheatsheet{padding:19px 18px}.cheatsheet ol{columns:1}.quizbox{padding:20px 16px;margin-bottom:75px}.quizhead h2{font-size:23px}.qquestion{font-size:19px}.mobilefix{display:block}.chain{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:420px){.wrap{width:calc(100% - 26px)}.topinner{min-height:58px}.mark{font-size:15px}.mark span{width:30px;height:30px}.topright .btn{display:none}.count{font-size:11px;padding:6px 8px}.hero h1{font-size:clamp(31px,9vw,38px)}.heroactions .btn{flex:1;min-width:0}.twocol,.compare{grid-template-columns:1fr}.pyramid{padding:10px 7px}.pyramid strong{font-size:12px}.math{padding:13px}.math .label{font-size:11px}.lessonhead .type{font-size:10px}.lesson h3{font-size:20px}.toc a strong{font-size:12px}.lesson .because{font-size:14px}}
+    @media(max-width:345px){.lessonhead{flex-wrap:wrap}.done{min-height:40px}.quizfoot .btn{padding:10px 12px;font-size:13px}.heroactions .btn{font-size:13px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+    @media print{.top,.heroactions,.toc,.done,.quizbox,.mobilefix{display:none!important}.hero{background:#fff;color:#000}.hero h1 em{color:#000}.hero p{color:#333}.hero .wrap{padding:15px 0}.lesson{break-inside:avoid;box-shadow:none}.cheatsheet{background:#fff;color:#000;border:1px solid black}.cheatsheet li{color:black}.foot{display:none}}
+  </style>
+</head>
+<body>
+  <header class="top" id="inicio">
+    <div class="wrap topinner">
+      <a class="mark" href="#inicio" aria-label="Voltar ao início"><span>◎</span> GEO<span style="color:#087e77;background:none;display:inline;width:auto;height:auto;font-size:inherit;margin-left:-8px">/</span>REVISÃO</a>
+      <div class="topright"><div class="count" id="completed">0 de 10 revisados</div><a href="#quiz" class="btn" style="font-size:12px;min-height:37px;padding:8px 12px">Treinar</a></div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <span class="ribbon">3º ano do Ensino Médio · Mapa de prova</span>
+        <h1>O mundo muda.<br><em>Entenda por quê.</em></h1>
+        <p>De natalidade à indústria: 10 assuntos explicados do jeito que cai na prova, com exemplos do Brasil e sem enrolação.</p>
+        <div class="heroactions"><a class="btn sun" href="#t1">Começar a revisão</a><a class="btn alt" href="#resumo">Ir para o resumão</a></div>
+      </div>
+    </section>
+    <section class="overview wrap">
+      <h2 class="sectiontitle">Seu roteiro de prova</h2>
+      <p class="muted">Toque em qualquer assunto. Depois marque o que já entendeu.</p>
+      <nav class="toc" aria-label="Assuntos do mapa de prova">
+        <a href="#t1"><span class="num">01</span><strong>Crescimento populacional</strong></a>
+        <a href="#t2"><span class="num">02</span><strong>Políticas de natalidade</strong></a>
+        <a href="#t3"><span class="num">03</span><strong>Teoria de Malthus</strong></a>
+        <a href="#t4"><span class="num">04</span><strong>Commodities</strong></a>
+        <a href="#t5"><span class="num">05</span><strong>Exportações</strong></a>
+        <a href="#t6"><span class="num">06</span><strong>Pirâmide etária</strong></a>
+        <a href="#t7"><span class="num">07</span><strong>População e densidade</strong></a>
+        <a href="#t8"><span class="num">08</span><strong>País populoso</strong></a>
+        <a href="#t9"><span class="num">09</span><strong>Indústria no território</strong></a>
+        <a href="#t10"><span class="num">10</span><strong>Cadeia de montagem</strong></a>
+      </nav>
+    </section>
+    <div class="wrap main-layout">
+      <div class="divider">População e demografia</div>
+      <article class="lesson" id="t1">
+        <div class="lessonhead"><div><span class="type">01 · DEMOGRAFIA</span><h3>Taxa de crescimento populacional</h3></div><button class="done" data-topic="1" aria-pressed="false">✓ Revisado?</button></div>
+        <p>Mostra <strong>quanto a população aumenta ou diminui</strong> em determinado período. O crescimento vem dos nascimentos, das mortes e das migrações.</p>
+        <div class="twocol"><div class="mini"><strong>Crescimento vegetativo</strong><p>Nascimentos − mortes. Não considera migrações.</p></div><div class="mini"><strong>Crescimento total</strong><p>Nascimentos − mortes + imigrantes − emigrantes.</p></div></div>
+        <div class="math"><span class="formula">Taxa = (P<sub>final</sub> − P<sub>inicial</sub>) ÷ P<sub>inicial</sub> × 100</span><span class="label">Percentual de crescimento total no período. P representa a população.</span></div>
+        <p><strong>Exemplo:</strong> de 1.000 para 1.100 habitantes = aumento de 100 pessoas = <strong>10%</strong>.</p>
+        <p class="because"><strong>Entenda melhor:</strong> a população pode crescer mesmo que nasçam poucas crianças, caso muitas pessoas se mudem para o lugar. Imagine uma cidade com 300 nascimentos, 200 mortes, 50 imigrantes e 100 emigrantes: ela ganha apenas 50 habitantes. Por isso é importante separar <b>crescimento natural</b> de <b>saldo migratório</b>.</p>
+        <div class="highlight"><strong>Brasil:</strong> a natalidade caiu ao longo das últimas décadas e a população envelhece. Isso faz o crescimento populacional desacelerar.</div>
+      </article>
+      <article class="lesson" id="t2">
+        <div class="lessonhead"><div><span class="type">02 · POLÍTICAS POPULACIONAIS</span><h3>Estado: incentivar ou reduzir nascimentos</h3></div><button class="done" data-topic="2" aria-pressed="false">✓ Revisado?</button></div>
+        <p>Governos podem adotar políticas para influenciar o número de filhos e a estrutura etária da população.</p>
+        <div class="compare"><div class="comp"><b>Natalista</b><p>Busca <strong>estimular</strong> nascimentos: licença parental, creches e apoio financeiro às famílias.</p></div><div class="comp"><b>Antinatalista</b><p>Busca <strong>reduzir</strong> nascimentos: planejamento familiar e incentivo à contracepção; alguns países já impuseram restrições.</p></div></div>
+        <p><strong>Exemplo histórico:</strong> a China adotou por décadas uma política de filho único, associada ao controle da natalidade.</p>
+        <p class="because"><strong>Entenda melhor:</strong> países com população envelhecida podem querer incentivar famílias a ter filhos, preocupados com a futura população economicamente ativa. Já políticas de redução da natalidade costumam ser justificadas por preocupações com o crescimento populacional. <b>Política natalista não significa obrigar a ter filhos</b>, e medidas coercitivas de controle da natalidade geram problemas de direitos humanos.</p>
+        <div class="highlight"><strong>Brasil:</strong> não há política estatal de limite de filhos. A queda da fecundidade está associada, entre outros fatores, à urbanização, à educação e às mudanças sociais.</div>
+      </article>
+      <article class="lesson" id="t3">
+        <div class="lessonhead"><div><span class="type">03 · TEORIAS DEMOGRÁFICAS</span><h3>Quem dizia que faltaria comida?</h3></div><button class="done" data-topic="3" aria-pressed="false">✓ Revisado?</button></div>
+        <p><strong>Thomas Malthus.</strong> Ele afirmava que a população tenderia a crescer mais rapidamente que a produção de alimentos, causando fome e pobreza se nada a limitasse.</p>
+        <div class="compare"><div class="comp"><b>População</b><p>Progressão geométrica, como 2, 4, 8, 16...</p></div><div class="comp"><b>Alimentos</b><p>Progressão aritmética, como 2, 4, 6, 8...</p></div></div>
+        <p><strong>Por que foi criticada?</strong> Não previu adequadamente avanços na produtividade agrícola, nas tecnologias e na organização da produção; fome também envolve desigualdade e distribuição.</p>
+        <p class="because"><strong>Entenda melhor:</strong> para Malthus, se a população crescesse sem controle, a quantidade de comida não acompanharia esse ritmo. Mas produzir bastante alimento não significa que todas as pessoas conseguirão comprá-lo ou recebê-lo. A <b>teoria reformista</b> chama atenção justamente para pobreza, concentração de renda e falta de acesso a serviços.</p>
+        <div class="highlight warn"><strong>Pegadinha:</strong> <em>Malthusiana</em> associa crescimento à escassez de alimentos. <em>Neomalthusiana</em> defende controle da natalidade para enfrentar problemas sociais. <em>Reformista</em> vê a desigualdade e a pobreza como causas importantes da alta natalidade.</div>
+      </article>
+      <div class="divider">Economia e comércio</div>
+      <article class="lesson" id="t4">
+        <div class="lessonhead"><div><span class="type">04 · ECONOMIA MUNDIAL</span><h3>Commodities</h3></div><button class="done" data-topic="4" aria-pressed="false">✓ Revisado?</button></div>
+        <p>São produtos primários ou pouco transformados, relativamente <strong>padronizados</strong>, negociados em grande escala no mercado mundial. Seus preços sofrem influência da oferta e da demanda internacionais.</p>
+        <div class="tags"><span class="tag">Soja</span><span class="tag">Minério de ferro</span><span class="tag">Petróleo</span><span class="tag">Café</span><span class="tag">Milho</span></div>
+        <p><strong>Vantagem:</strong> geram divisas e movimentam a economia. <strong>Risco:</strong> dependência das oscilações dos preços internacionais.</p>
+        <p class="because"><strong>Entenda melhor:</strong> um produtor de soja não controla sozinho o preço mundial da soja. Se a oferta global aumenta muito e a demanda não acompanha, o preço pode cair. É diferente de uma empresa que vende um produto com tecnologia, marca e características próprias, como um equipamento sofisticado. Isso ajuda a entender por que países buscam <b>diversificar suas exportações</b>.</p>
+        <div class="highlight"><strong>Brasil:</strong> é um grande produtor e exportador de commodities agrícolas e minerais, como soja, minério de ferro e petróleo.</div>
+      </article>
+      <article class="lesson" id="t5">
+        <div class="lessonhead"><div><span class="type">05 · COMÉRCIO EXTERIOR</span><h3>Exportações</h3></div><button class="done" data-topic="5" aria-pressed="false">✓ Revisado?</button></div>
+        <p><strong>Exportar</strong> é vender bens ou serviços para outros países. <strong>Importar</strong> é comprar do exterior.</p>
+        <div class="math"><span class="formula">Saldo comercial = exportações − importações</span><span class="label">Positivo = superávit. Negativo = déficit comercial.</span></div>
+        <p><strong>Exemplo:</strong> um país exporta US$ 100 bilhões e importa US$ 80 bilhões → <strong>superávit de US$ 20 bilhões</strong>.</p>
+        <p class="because"><strong>Entenda melhor:</strong> a balança comercial mede a diferença entre a venda e a compra de <b>mercadorias</b> do exterior. Um superávit indica que o valor exportado foi maior, mas não garante, sozinho, que todos os setores da economia estejam bem. E um país pode exportar matéria-prima e importar máquinas ou componentes industriais para suas fábricas.</p>
+        <div class="highlight"><strong>Brasil:</strong> vende commodities e também produtos industrializados. Exportações geram receita externa, mas depender demais de produtos primários pode aumentar a vulnerabilidade a preços internacionais.</div>
+      </article>
+      <div class="divider">População no território</div>
+      <article class="lesson" id="t6">
+        <div class="lessonhead"><div><span class="type">06 · ESTRUTURA ETÁRIA</span><h3>Pirâmide etária</h3></div><button class="done" data-topic="6" aria-pressed="false">✓ Revisado?</button></div>
+        <p>É um gráfico que representa a distribuição da população por <strong>idade e sexo</strong>. A base reúne crianças e jovens; o topo reúne idosos.</p>
+        <div class="pyramids">
+          <div class="pyramid"><strong>População jovem</strong><div class="bars"><span class="bar" style="width:16%"></span><span class="bar" style="width:30%"></span><span class="bar" style="width:48%"></span><span class="bar" style="width:68%"></span><span class="bar" style="width:92%"></span></div><small>Base larga → alta natalidade</small></div>
+          <div class="pyramid"><strong>Envelhecimento</strong><div class="bars"><span class="bar alt" style="width:50%"></span><span class="bar alt" style="width:63%"></span><span class="bar alt" style="width:82%"></span><span class="bar alt" style="width:85%"></span><span class="bar alt" style="width:66%"></span></div><small>Base menor → menos nascimentos</small></div>
+        </div>
+        <p class="micro">Ilustrações esquemáticas, não representam dados reais de um país.</p>
+        <p><strong>Base larga:</strong> maior proporção de jovens, geralmente natalidade alta. <strong>Topo mais largo:</strong> maior participação de idosos e expectativa de vida mais alta.</p>
+        <p class="because"><strong>Como interpretar:</strong> leia de baixo para cima: crianças, adultos e idosos. Barras largas mostram faixas etárias com mais pessoas. Uma base que se estreita ao longo do tempo sugere menos nascimentos; um topo que cresce indica envelhecimento. Isso pode aumentar a necessidade de serviços de saúde e mudar a relação entre trabalhadores e aposentados.</p>
+        <div class="highlight"><strong>Brasil:</strong> a base da pirâmide diminuiu e a parcela de adultos e idosos cresceu. Isso exige adaptação da Previdência, da saúde e do mercado de trabalho.</div>
+      </article>
+      <article class="lesson" id="t7">
+        <div class="lessonhead"><div><span class="type">07 · DISTRIBUIÇÃO DA POPULAÇÃO</span><h3>Povoado e densidade demográfica</h3></div><button class="done" data-topic="7" aria-pressed="false">✓ Revisado?</button></div>
+        <p><strong>Povoado</strong> se refere à concentração de habitantes por área. Um território muito povoado possui densidade demográfica elevada.</p>
+        <div class="math"><span class="formula">Densidade = população ÷ área</span><span class="label">Unidade mais comum: hab./km².</span></div>
+        <p><strong>Exemplo:</strong> 500.000 habitantes em 1.000 km² → <strong>500 hab./km²</strong>.</p>
+        <p class="because"><strong>Entenda melhor:</strong> duas cidades podem ter a mesma população e densidades diferentes. Se ambas têm 100 mil habitantes, mas uma ocupa 100 km² e outra 1.000 km², as densidades serão de <b>1.000 hab./km²</b> e <b>100 hab./km²</b>. O que muda é o tamanho da área onde essas pessoas vivem.</p>
+        <div class="highlight"><strong>Brasil:</strong> a população está distribuída de modo desigual, com maior concentração histórica no litoral e em grandes centros urbanos. Áreas da Amazônia possuem baixa densidade em muitos trechos.</div>
+      </article>
+      <article class="lesson" id="t8">
+        <div class="lessonhead"><div><span class="type">08 · CONCEITOS DE DEMOGRAFIA</span><h3>O que é um país populoso?</h3></div><button class="done" data-topic="8" aria-pressed="false">✓ Revisado?</button></div>
+        <div class="compare"><div class="comp"><b>Populoso</b><p>Tem <strong>muitos habitantes no total</strong>, independentemente da área.</p></div><div class="comp"><b>Povoado</b><p>Tem <strong>muitos habitantes por km²</strong>, ou seja, alta densidade.</p></div></div>
+        <p><strong>Exemplo:</strong> um país enorme com 100 milhões de pessoas pode ser populoso, mas pouco povoado, se sua área for muito grande.</p>
+        <p class="because"><strong>Pense assim:</strong> se a pergunta disser “qual país tem mais pessoas?”, ela quer a <b>população absoluta</b> (populoso). Se perguntar “onde vivem mais pessoas em cada quilômetro quadrado?”, ela quer a <b>densidade</b> (povoado). Países pequenos podem ser muito povoados mesmo sem ter tantos habitantes no total.</p>
+        <div class="highlight warn"><strong>Pegadinha clássica:</strong> população absoluta = número total de habitantes. População relativa = densidade demográfica. Não confunda.</div>
+        <p><strong>Brasil:</strong> é um país populoso, mas a densidade média nacional é relativamente baixa diante de países muito densamente ocupados, pois seu território é extenso.</p>
+      </article>
+      <div class="divider">Indústria e globalização</div>
+      <article class="lesson" id="t9">
+        <div class="lessonhead"><div><span class="type">09 · GEOGRAFIA INDUSTRIAL</span><h3>Concentração e desconcentração industrial</h3></div><button class="done" data-topic="9" aria-pressed="false">✓ Revisado?</button></div>
+        <div class="compare"><div class="comp"><b>Concentração</b><p>Indústrias se agrupam numa região por infraestrutura, consumidores, transporte, mão de obra e fornecedores.</p></div><div class="comp"><b>Desconcentração</b><p>Parte das indústrias se desloca ou se expande para outras regiões, buscando custos menores, incentivos e novos mercados.</p></div></div>
+        <p><strong>Por que ocorre?</strong> Preço do terreno, salários, tributos, logística, novos polos industriais e tecnologia alteram a localização das fábricas.</p>
+        <p class="because"><strong>Entenda melhor:</strong> ter fábricas próximas facilita o acesso a estradas, fornecedores, bancos e trabalhadores especializados, criando vantagens de concentração. Com o tempo, porém, custos altos e congestionamentos podem estimular a instalação de novas unidades no interior ou em outros estados. <b>Desconcentração não significa que São Paulo deixou de ser importante</b>, mas que surgiram e cresceram outros polos.</p>
+        <div class="highlight"><strong>Brasil:</strong> a indústria se concentrou historicamente no Sudeste, especialmente em São Paulo. Depois houve expansão de atividades industriais para o interior e outras regiões do país, embora as desigualdades regionais persistam.</div>
+      </article>
+      <article class="lesson" id="t10">
+        <div class="lessonhead"><div><span class="type">10 · CADEIAS GLOBAIS DE VALOR</span><h3>Etapas de produção e seus valores</h3></div><button class="done" data-topic="10" aria-pressed="false">✓ Revisado?</button></div>
+        <p>Um produto pode ser planejado, fabricado, montado e vendido em <strong>países diferentes</strong>. Isso forma uma cadeia produtiva global.</p>
+        <div class="chain">
+          <div class="stage"><b>1. Pesquisa e design</b><small>Projeto, patentes e tecnologia</small></div>
+          <div class="stage"><b>2. Peças e matérias-primas</b><small>Componentes e insumos</small></div>
+          <div class="stage"><b>3. Montagem</b><small>União das peças na fábrica</small></div>
+          <div class="stage"><b>4. Marca e venda</b><small>Marketing, distribuição e serviços</small></div>
+        </div>
+        <p><strong>Quem ganha mais?</strong> Depende da indústria, mas pesquisa, tecnologia, patentes, marca e serviços especializados frequentemente capturam mais valor do que a montagem simples.</p>
+        <p class="because"><strong>Entenda melhor:</strong> imagine um celular: uma empresa pode criar o projeto, outra produzir chips, outra montar o aparelho e outra vendê-lo. Cada etapa recebe uma parte da receita. O lugar que faz apenas a montagem pode ficar com uma parcela menor, enquanto quem controla tecnologia, propriedade intelectual ou marca consegue capturar uma parcela maior. Isso varia conforme o setor e os contratos.</p>
+        <div class="highlight"><strong>Brasil:</strong> ao exportar matéria-prima e importar produtos sofisticados, o país pode captar menos valor em certas cadeias. Investir em pesquisa, indústria, tecnologia e processamento amplia a participação em etapas de maior valor.</div>
+        <div class="highlight warn"><strong>Exemplo fácil:</strong> vender grãos de café é diferente de vender cápsulas, máquinas, marca e serviços associados ao café. Quanto maior a transformação e o conhecimento incorporado, maior pode ser o valor agregado.</div>
+      </article>
+      <section class="cheatsheet" id="resumo">
+        <h2>Revisão de 1 minuto</h2>
+        <ol>
+          <li><b>Crescimento:</b> nascimentos − mortes ± migração.</li>
+          <li><b>Natalista:</b> incentiva nascimentos; antinatalista: reduz.</li>
+          <li><b>Malthus:</b> população cresceria mais rápido que os alimentos.</li>
+          <li><b>Commodities:</b> produtos padronizados, como soja e minério.</li>
+          <li><b>Exportar:</b> vender para fora; importar: comprar de fora.</li>
+          <li><b>Pirâmide:</b> base = jovens; topo = idosos.</li>
+          <li><b>Densidade:</b> habitantes ÷ km².</li>
+          <li><b>Populoso:</b> muitos habitantes; povoado: alta densidade.</li>
+          <li><b>Desconcentração:</b> indústria se espalha para novas áreas.</li>
+          <li><b>Cadeia global:</b> projeto, peças, montagem, venda; valores diferentes.</li>
+        </ol>
+      </section>
+      <section class="quizbox" id="quiz" aria-labelledby="quiztitle">
+        <div class="quizhead"><h2 id="quiztitle">Treino de prova</h2><span class="qtag" id="qstep">1 de 10</span></div>
+        <p class="muted">Uma questão por assunto. Escolha uma alternativa e leia a explicação.</p>
+        <div class="progressline" aria-label="Progresso do quiz"><div id="qbar"></div></div>
+        <p class="qquestion" id="qtext" aria-live="polite"></p>
+        <div class="choices" id="qchoices"></div>
+        <div class="feedback" id="qfeedback" role="status" aria-live="polite"></div>
+        <div class="quizfoot"><span class="micro" id="qscore">0 acertos</span><button class="btn" id="qnext" type="button" hidden>Próxima questão</button></div>
+      </section>
+    </div>
+  </main>
+  <nav class="mobilefix" aria-label="Atalho do quiz"><a href="#quiz" class="btn">★ Treinar</a></nav>
+  <footer class="foot"><div class="wrap">Geografia · Revisão orientada pelo mapa de prova enviado · 3º ano</div></footer>
+  <script>
+  (function(){
+    'use strict';
+    var key='geo-mapa-revisao-v1';
+    var reviewed={};
+    try{reviewed=JSON.parse(localStorage.getItem(key)||'{}')||{}}catch(e){reviewed={}}
+    var buttons=Array.from(document.querySelectorAll('.done'));
+    function renderReview(){
+      var total=0;
+      buttons.forEach(function(b){
+        var yes=!!reviewed[b.dataset.topic];if(yes)total++;
+        b.dataset.done=String(yes);b.setAttribute('aria-pressed',String(yes));
+        b.textContent=yes?'✓ Entendi':'✓ Revisado?';
+      });
+      document.getElementById('completed').textContent=total+' de 10 revisados';
+    }
+    buttons.forEach(function(b){b.addEventListener('click',function(){
+      reviewed[b.dataset.topic]=!reviewed[b.dataset.topic];
+      try{localStorage.setItem(key,JSON.stringify(reviewed))}catch(e){}
+      renderReview();
+    })});renderReview();
+    var questions=[
+      {q:'Uma cidade passou de 10 mil para 11 mil habitantes. Qual foi o crescimento percentual no período?',o:['1%','10%','11%','100%'],a:1,e:'A diferença é de 1.000 pessoas. Dividimos 1.000 por 10.000 e multiplicamos por 100: crescimento de 10%.'},
+      {q:'Qual medida é um exemplo de política natalista?',o:['Oferecer apoio financeiro às famílias que têm filhos','Proibir mais de um filho','Reduzir a licença parental','Aplicar restrições de natalidade'],a:0,e:'Políticas natalistas estimulam os nascimentos, por exemplo com creches e benefícios para famílias.'},
+      {q:'Qual teoria defendia que a população tenderia a crescer mais depressa que os alimentos?',o:['Reformista','Keynesiana','Malthusiana','Geopolítica'],a:2,e:'Thomas Malthus comparou o crescimento geométrico da população ao crescimento aritmético da produção de alimentos.'},
+      {q:'Qual alternativa reúne apenas exemplos comuns de commodities?',o:['Celular, avião e aplicativo','Soja, café e minério de ferro','Automóvel, TV e software','Patente, marca e design'],a:1,e:'Commodities são produtos padronizados negociados em grande escala, muitos deles agrícolas ou minerais.'},
+      {q:'Se o Brasil exporta US$ 200 bilhões e importa US$ 180 bilhões, o saldo comercial é...',o:['Déficit de US$ 20 bilhões','Superávit de US$ 20 bilhões','Saldo zero','Déficit de US$ 380 bilhões'],a:1,e:'200 − 180 = +20 bilhões. Resultado positivo significa superávit comercial.'},
+      {q:'Uma pirâmide etária cuja base se estreita ao longo dos anos indica, geralmente...',o:['Aumento da natalidade','Diminuição da expectativa de vida','Queda da natalidade e envelhecimento','Ausência de idosos'],a:2,e:'Uma base mais estreita significa proporção menor de nascimentos/crianças, frequentemente associada ao envelhecimento.'},
+      {q:'Um território possui 600.000 habitantes em 2.000 km². Qual é sua densidade?',o:['30 hab./km²','300 hab./km²','1.200 hab./km²','3.000 hab./km²'],a:1,e:'600.000 ÷ 2.000 = 300 habitantes por km².'},
+      {q:'Um país é classificado como populoso quando...',o:['Possui grande população absoluta','Possui poucos habitantes','Tem necessariamente alta densidade','É pequeno territorialmente'],a:0,e:'Populoso significa muitos habitantes no total. Povoado significa alta densidade populacional.'},
+      {q:'O que caracteriza a desconcentração industrial?',o:['Fechamento de toda a indústria nacional','Indústrias se expandem para outras regiões','Todas as fábricas vão para uma cidade','Fim da produção de bens'],a:1,e:'Na desconcentração, a produção industrial deixa de ficar tão concentrada em um polo e se distribui por outros espaços.'},
+      {q:'Em cadeias globais de valor, quais atividades costumam capturar maior valor que a montagem simples?',o:['Apenas transporte de matéria-prima','Pesquisa, patentes, tecnologia e marca','Somente trabalho manual repetitivo','Nenhuma: todas as etapas têm o mesmo valor'],a:1,e:'Design, tecnologia, patentes e marca podem concentrar muito valor, enquanto a montagem simples costuma ter margens menores.'}
+    ];
+    var index=0,score=0,answered=false;
+    var qtext=document.getElementById('qtext'),choices=document.getElementById('qchoices');
+    var feed=document.getElementById('qfeedback'),next=document.getElementById('qnext');
+    function draw(){
+      var q=questions[index];answered=false;
+      document.getElementById('qstep').textContent=(index+1)+' de '+questions.length;
+      document.getElementById('qbar').style.width=((index+1)/questions.length*100)+'%';
+      document.getElementById('qscore').textContent=score+' acertos';
+      qtext.textContent=q.q;choices.replaceChildren();feed.className='feedback';feed.textContent='';next.hidden=true;
+      q.o.forEach(function(option,j){
+        var b=document.createElement('button');b.type='button';b.className='choice';
+        b.textContent=String.fromCharCode(65+j)+') '+option;
+        b.addEventListener('click',function(){choose(j)});choices.appendChild(b);
+      });
+    }
+    function choose(j){
+      if(answered)return;answered=true;var q=questions[index];
+      if(j===q.a)score++;
+      Array.from(choices.children).forEach(function(b,k){
+        b.disabled=true;if(k===q.a)b.classList.add('correct');
+        if(k===j&&j!==q.a)b.classList.add('wrong');
+      });
+      feed.textContent=(j===q.a?'Acertou! ':'Olhe a alternativa verde. ')+q.e;
+      feed.className='feedback show';next.hidden=false;
+      next.textContent=index===questions.length-1?'Refazer o treino':'Próxima questão';
+      document.getElementById('qscore').textContent=score+' acertos';
+      if(index===questions.length-1){
+        var result=document.createElement('strong');
+        result.textContent=' Resultado final: '+score+'/10.';
+        feed.appendChild(result);
+      }
+    }
+    next.addEventListener('click',function(){
+      if(index===questions.length-1){index=0;score=0}else{index++}
+      draw();
+    });draw();
+  })();
+  </script>
+</body>
+</html>
